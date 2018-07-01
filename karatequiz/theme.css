@@ -1,0 +1,13 @@
+body {
+	font-family: "Verdana";
+	margin: 20px;
+}
+
+#karate {
+	width: 250px;
+}
+
+#result {
+	color: #FF0000;
+	display: inline-block;
+}

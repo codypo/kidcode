@@ -1,0 +1,20 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="theme.css">
+	<script type="text/javascript" src="game.js"></script>
+	<title>Karate Quiz!</title>
+</head>
+<body onLoad="startGame()">
+	<h1>Welcome to the Karate Quiz!</h1>
+	<p>Are you a memory sensei? Let's see.</p>
+	<h3>Score: <span id="score">0</span></h3>
+	<h3><div id="result"></div></h3>
+	<div>
+		<img id="karate"/>
+		<p>Who is this? <input type="text" id="name"/></p>
+		<p>What did this person do? <select id="feats"/> </p>
+		<p><input type="hidden" id="selected"/></p>
+		<button type="button" id="submit" onclick="submit()">Submit</button>
+	</div>
+</body>
+</html>
